@@ -1,0 +1,29 @@
+.btnGroup {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.btn {
+  width: 94px;
+  color: #fff;
+  font-family: 'Droid serif', serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  background: #c5c6c7;
+  padding: 8px;
+  border-radius: 20px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
+.btn:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  box-shadow: 0 10px 20px rgba(112, 110, 110, 0.19),
+    0 6px 6px rgba(112, 110, 110, 0.19);
+  transition: all 0.4s ease 0s;
+}

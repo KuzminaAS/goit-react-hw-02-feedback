@@ -1,0 +1,47 @@
+.list {
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  margin-top: 25px;
+  margin-left: -150px;
+  padding: 0;
+}
+.title {
+  font-family: 'Droid serif', serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+}
+.item {
+  font-family: 'Droid serif', serif;
+  color: rgb(33, 24, 37);
+  position: relative;
+  display: block;
+  border: 1px solid #477b85e7;
+  margin-top: 5px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  animation: fadeIn 0.5s linear;
+  animation-fill-mode: both;
+}
+
+.item:nth-child(odd) {
+  animation-delay: 0.25s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    top: 100px;
+  }
+  75% {
+    opacity: 0.5;
+    top: 0px;
+  }
+  100% {
+    opacity: 1;
+  }
+}

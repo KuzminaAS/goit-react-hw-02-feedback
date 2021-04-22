@@ -1,0 +1,26 @@
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container {
+  width: 360px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.title {
+  color: #b48608;
+  font-family: 'Droid serif', serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.22;
+  margin: 0 0 12px;
+  text-align: center;
+}
+.line {
+  width: 360px;
+  border: none;
+  background-color: rgb(119, 111, 111);
+  height: 2px;
+}
